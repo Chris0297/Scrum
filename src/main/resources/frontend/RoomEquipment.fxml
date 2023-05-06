@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="601.0" prefWidth="813.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="frontend.PrimaryController">
+   <children>
+      <RadioButton layoutX="531.0" layoutY="225.0" mnemonicParsing="false" text="Pool" />
+      <RadioButton layoutX="531.0" layoutY="268.0" mnemonicParsing="false" text="Sauna" />
+      <RadioButton layoutX="531.0" layoutY="307.0" mnemonicParsing="false" text="All Inclusive" />
+      <Text layoutX="535.0" layoutY="194.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Filter:" />
+      <Text layoutX="232.0" layoutY="145.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+      <RadioButton layoutX="535.0" layoutY="342.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="81.0" text="Shower" />
+      <RadioButton layoutX="540.0" layoutY="387.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="148.0" text="Sea ​​View" />
+      <Text layoutX="31.0" layoutY="140.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Number of Beds:" wrappingWidth="133.13671875" />
+      <TextField layoutX="148.0" layoutY="85.0" />
+      <TextField layoutX="148.0" layoutY="123.0" />
+      <Text layoutX="31.0" layoutY="102.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Number of People:" />
+      <HBox fx:id="numberofStars" layoutX="115.0" layoutY="292.0" onMouseClicked="#setStars" prefHeight="100.0" prefWidth="200.0" />
+   </children>
+</Pane>
